@@ -1,0 +1,29 @@
+body{
+    text-align:center;
+}
+#pickColour{
+    margin:0.2rem;
+}
+table, tr, td{
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr{
+    height:5px;
+}
+td{
+    width:5px;
+}
+h1{
+    font-family: Monoton;
+    font-size:70px;
+    margin:0.2rem;
+}
+h2{
+    margin:0.2rem;
+    
+}
