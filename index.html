@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pixel Art Maker</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+        <link href="css/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Pixel Art Maker</h1>
+        <h2>Choose Grid Size</h2>
+        <div>
+            <form>
+                 Grid Height:
+                <input type="number" placeholder="Enter a number" id="inputHeight">
+            Grid Width:
+                <input type="number" placeholder="Enter a number" id="inputWidth">
+                <input type="submit" id="createCanvas">
+            </form>
+        </div>
+        <div class="pickColour">
+            <span><strong>Pick a colour</strong> 
+            <input type="color" id="colorPicker">
+            </span>
+        </div>
+        <h3>Design Canvas</h3>
+            <table id="pixelCanvas">
+            </table>
+<script src="js/jquery.min.js"></script>   
+<script src="js/script.js"></script>   
+    </body>
+</html>
