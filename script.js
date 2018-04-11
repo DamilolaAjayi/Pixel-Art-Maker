@@ -3,7 +3,7 @@ const sizePicker = $('#createCanvas');
 
 $(document).ready(function(){
 	function makeGrid(){
-        canvas.text('');
+        canvas.text(''); //reset Design Canvas
 		let gridHeight = $('#inputHeight').val();
 		let gridWidth = $('#inputWidth').val();
 	
@@ -23,14 +23,14 @@ $(document).ready(function(){
   })
 });
 
-function colorCell(evt){
+function colorCell(e){
 	 let color ='';
-	 switch(evt.buttons){
-		 case 1: 
-		 color= $('#colorPicker').val();
+	 switch(e.buttons){
+		 case 1: //add colour to the cell if user clicks on it with left mouse key
+		 color= $('#colorPicker').val(); 
 		 break;
-		 case 2:
-		 color = '#ffffff';
+		 case 2: //remove colour from cell if user right clicks on cell
+		 color = '#ffffff'; 
 		 break;
 	 }
 	 if ( color!== ''){
